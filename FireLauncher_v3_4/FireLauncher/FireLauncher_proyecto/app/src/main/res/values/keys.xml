@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+      Clave de TMDB (themoviedb.org) para las miniaturas de series y películas.
+      Es gratis: crea una cuenta en themoviedb.org > Ajustes > API y pega aquí la "Clave de la API" (v3)
+      o el "Token de acceso de lectura" (v4). Vacío = no se usa TMDB (se usan TVmaze, Kitsu e iTunes).
+    -->
+    <string name="tmdb_key" translatable="false"></string>
+</resources>

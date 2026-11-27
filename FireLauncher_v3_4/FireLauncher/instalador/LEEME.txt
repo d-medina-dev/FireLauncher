@@ -1,0 +1,35 @@
+﻿FIRE LAUNCHER - CÓMO INSTALARLO
+=================================
+
+Necesitas una computadora con Windows 10 u 11 en la misma red que el televisor.
+
+1) En el televisor, activa la depuración ADB:
+
+   Fire TV
+   - Configuración > Mi Fire TV > Opciones para desarrolladores > Depuración ADB: ACTIVADA.
+   - Si no aparece «Opciones para desarrolladores»: Mi Fire TV > Acerca de > pulsa 7 veces el nombre del equipo.
+
+   Android TV / Google TV
+   - Ajustes > Sistema > Acerca de > pulsa 7 veces «Compilación del SO».
+   - Luego: Ajustes > Sistema > Opciones para desarrolladores > Depuración USB: ACTIVADA.
+   - En algunos Google TV nuevos se llama «Depuración inalámbrica» (el instalador te guía para vincular con código).
+
+2) Busca la IP del televisor:
+   - Fire TV: Configuración > Mi Fire TV > Acerca de > Red.
+   - Android TV: Ajustes > Red e Internet > (tu red).
+
+3) Pon FireLauncher.apk en esta carpeta (si no viene incluido, el instalador intenta descargarlo).
+
+4) Haz doble clic en «Instalar.bat» y escribe la IP cuando te la pida.
+   - Si Windows muestra «Windows protegió su PC»: pulsa «Más información» > «Ejecutar de todas formas».
+   - La primera vez descarga ADB de Google (unos 6 MB) y te pide aceptar.
+   - En el televisor aparecerá «¿Permitir la depuración?»: marca «Permitir siempre» y acepta.
+
+El instalador hace todo lo demás:
+   - instala Fire Launcher;
+   - le da todos los permisos (botón Inicio, lo que estás viendo, uso de apps, ubicación, etc.);
+   - lo abre en el televisor.
+
+Para actualizar: descarga la versión nueva y vuelve a abrir «Instalar.bat». Tus ajustes se mantienen.
+
+Instalación manual (sin este instalador): ver FireLauncher_proyecto/PERMISOS_ADB.md.
