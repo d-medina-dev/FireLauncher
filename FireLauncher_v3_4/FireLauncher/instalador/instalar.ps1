@@ -8,7 +8,7 @@
 # ---------- Configuración para quien publica el proyecto ----------
 # Repositorio de GitHub (usuario/repositorio). Si junto a este archivo no hay APK, se descarga
 # de la última versión publicada (Releases), con estos nombres de archivo.
-$Repo = ''          # ejemplo: 'tu-usuario/FireLauncher'
+$Repo = 'd-medina-dev/FireLauncher'          # ejemplo: 'tu-usuario/FireLauncher'
 $App  = @{ Nombre = 'Fire Launcher'; Apk = 'FireLauncher.apk'; Pkg = 'com.ejemplo.launcher'; Lite = $false }
 # El otro launcher del proyecto: si también está instalado, el botón Inicio pasa a este.
 $Otro = @{ Nombre = 'Fire Launcher Lite'; Pkg = 'com.ejemplo.launcherlite' }
